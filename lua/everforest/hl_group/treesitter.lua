@@ -62,6 +62,7 @@ function M.setup(p, config)
     -- Keywords (Keyword) {{{
     -- @keyword                                    ; various keywords
     ['@keyword'] = { fg = p.red_600 },
+    ['@keyword.storage'] = { fg = p.red_600 },
     -- @keyword.function                           ; keywords that define a function (e.g. `func` in Go, `def` in Python)
     -- @keyword.operator                           ; operators that are English words (e.g. `and` / `or`)
     -- @keyword.return                             ; keywords like `return` and `yield`
